@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 🔴 CIRCULAR HELP BUTTON -->
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="HELP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/ripple_button"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@null"/>
+
+
+    <!-- 🎤 VOICE BUTTON -->
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎤 Speak"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 📝 TEXT INPUT -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#FFFFFF"/>
+
+</LinearLayout>
