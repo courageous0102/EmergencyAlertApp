@@ -104,7 +104,8 @@ The app captures your real-time GPS coordinates, generates a clickable Google Ma
 ┌─────────────────────────────────────────────────────────────┐
 │  5. SMS TRANSMISSION                                        │
 │     • Auto-detect Android version for SmsManager            │
-│     • Divide long message into parts (multipart)            │n│     • Send to predefined emergency number                   │
+│     • Divide long message into parts (multipart)            │
+│     • Send to predefined emergency number                   │
 └─────────────────────────┬───────────────────────────────────┘
                           ▼
 ┌─────────────────────────────────────────────────────────────┐
@@ -130,15 +131,6 @@ The app captures your real-time GPS coordinates, generates a clickable Google Ma
 
 ---
 
-## 📸 Screenshots
-
-> _Add your screenshots here for best impact!_  
-> Suggested captures:
-> - Main screen with the red HELP button
-> - Voice input recognition in action
-> - Received SMS with Google Maps link
-
----
 
 ## 🚀 Usage
 
@@ -180,7 +172,7 @@ String phoneNumber = "9835268065"; // 🔴 REPLACE WITH YOUR NUMBER
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/EmergencyAlertApp.git
+   git clone https://github.com/courageous0102/EmergencyAlertApp.git
    cd EmergencyAlertApp
    ```
 
@@ -262,9 +254,7 @@ EmergencyAlertApp/
 
 **Abhishek**
 
-- 🌐 Portfolio: _[Add your portfolio link]_
-- 💼 LinkedIn: _[Add your LinkedIn]_
-- 🐙 GitHub: _[Add your GitHub]_
+- 🌐 Portfolio: https://courageous0102.github.io/Portfolio1.0/
 
 ---
 
